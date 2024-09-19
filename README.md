@@ -1,6 +1,8 @@
 # micro_glider_recipe
 repository for a micro-underwater glider design recipe
 
+These scripts support work submitted for publication in the Journal of Field Robotics
+
 glider_model.m calculates glider flight data (displacements, velocity, pitch and pitch velocity) for every permutation of design parameters (either using variable external or internal parameters). 
 
 It uses glider_ode.m and liftdrag.m to calculate these parameters. 
